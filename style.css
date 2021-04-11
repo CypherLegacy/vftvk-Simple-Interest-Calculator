@@ -1,4 +1,17 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {
+    font-family: Arial, serif;
+    color: white;
+    background-color: black;
+}
+.maindiv {
+    color: black;
+    background-color: white;
+    width: 300px;
+    border-radius: 25px;
+    padding: 20px;
+    align-content: center;
+}
+h1 {
+    font-family: Verdana, sans-serif;
+    color: grey;
+}
