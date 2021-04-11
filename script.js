@@ -29,11 +29,11 @@ function compute() {
 
 //updates shown value next to interest rate range slider
 function updateRate(val) {
-	document.getElementById("int").value=val;
+    document.getElementById("int").value=val;
 }
 
 //formats numbers to currency with '$' and ',' with 2 decimal places with prefix "currency.format(<value>)"
 const currency = new Intl.NumberFormat('en-US', {
-  style: 'currency',
-  currency: 'USD'
+    style: 'currency',
+    currency: 'USD'
 })
