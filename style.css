@@ -21,7 +21,8 @@ h1 {
 
 table {
     margin: auto;
-    table-layout: auto;
+    table-layout: fixed;
+    width: max-content;
     align-items: center;
     white-space: nowrap;
 }
