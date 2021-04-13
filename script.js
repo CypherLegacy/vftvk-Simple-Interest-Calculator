@@ -15,6 +15,7 @@ function compute() {
         principal.focus();
         return false;
     }
+
     if (years == "-years-") {
         alert("Select number of years");
         years.focus();
