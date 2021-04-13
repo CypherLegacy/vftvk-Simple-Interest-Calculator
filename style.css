@@ -21,14 +21,7 @@ h1 {
 
 table {
     margin: auto;
-    table-layout: fixed;
-    width: 100%;
+    table-layout: auto;
     align-items: center;
     white-space: nowrap;
-}
-
-td {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
